@@ -69,7 +69,7 @@ function startAnim() {
   function frame() {
     count++; 
     if (count > (openSteps+revealSteps)) {
-      clearInterval(anim);
+      //clearInterval(anim);
     } else if (count > openSteps) {
       for(var i = 0; i < photos.length; i++){
         photos[i].style.display = "block";
